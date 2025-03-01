@@ -64,11 +64,37 @@ Freelancy is a console application for managing freelance projects and tasks, wr
 
 ## Installation
 
+There are several ways to install and run Freelancy:
+
+### Option 1: Using PowerShell Installer (Recommended for Windows)
+
+1. Download the repository
+2. Run the installer script:
+
+```powershell
+.\install.ps1
+```
+
+The installer will:
+
+- Create `%USERPROFILE%\bin` directory if it doesn't exist
+- Build the application
+- Copy the executable to `%USERPROFILE%\bin`
+- Add the path to your system's PATH variable (if not already there)
+
+After installation, you can run Freelancy from anywhere using:
+
+```bash
+freelancy
+```
+
+### Option 2: Manual Build (For Developers)
+
 1. Make sure you have Go 1.21 or higher installed
 2. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/freelancy.go.git
+git clone https://github.com/RuslanGagushin/freelancy.go.git
 cd freelancy.go
 ```
 
@@ -79,6 +105,16 @@ go build -o freelancy.exe
 ```
 
 4. Run the application:
+
+```bash
+./freelancy.exe
+```
+
+### Option 3: Direct Executable (Quick Start)
+
+1. Download the latest `freelancy.exe` from the [Releases](https://github.com/RuslanGagushin/freelancy/releases) page
+2. Place it in any directory
+3. Double-click to run or launch from terminal:
 
 ```bash
 ./freelancy.exe
@@ -115,3 +151,7 @@ All data is stored locally in a JSON file at `~/.freelancy/data.json`
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+```
+
+```
