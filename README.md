@@ -112,7 +112,7 @@ go build -o freelancy.exe
 
 ### Option 3: Direct Executable (Quick Start)
 
-1. Download the latest `freelancy.exe` from the [Releases](https://github.com/RuslanGagushin/freelancy/releases) page
+1. Download the latest `freelancy.exe` from the [Releases](https://github.com/RuslanGagushin/freelancy.go/releases/tag/main) page
 2. Place it in any directory
 3. Double-click to run or launch from terminal:
 
