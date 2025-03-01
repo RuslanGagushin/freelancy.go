@@ -2,6 +2,22 @@
 
 Freelancy is a console application for managing freelance projects and tasks, written in Go using [Bubble Tea](https://github.com/charmbracelet/bubbletea) to create a modern TUI (Text User Interface).
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Screenshots
+
+### Projects View
+
+![Main Screen](imgs/main_screen.png)
+
+### Kanban Board
+
+![Tasks Board](imgs/tasks_board.png)
+
+### Income Analysis
+
+![Finances](imgs/finances.png)
+
 ## Features
 
 - 📋 Project Management
@@ -95,3 +111,7 @@ All data is stored locally in a JSON file at `~/.freelancy/data.json`
 - [Bubble Tea](https://github.com/charmbracelet/bubbletea) - framework for building TUI
 - [Lip Gloss](https://github.com/charmbracelet/lipgloss) - terminal UI styling
 - [Bubbles](https://github.com/charmbracelet/bubbles) - components for Bubble Tea
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
