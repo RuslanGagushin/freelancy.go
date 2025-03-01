@@ -68,7 +68,7 @@ Freelancy is a console application for managing freelance projects and tasks, wr
 2. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/freelancy.go.git
+git clone https://github.com/RuslanGagushin/freelancy.go.git
 cd freelancy.go
 ```
 
